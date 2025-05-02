@@ -46,6 +46,45 @@ body {
   margin: 0 auto;
 }
 
+/* ///////////////////////////// Layout .entete */
+.entete {
+  background-color: blanchedalmond;
+  /*  /////////////////////// Navigation */
+}
+.entete__contenu {
+  display: flex;
+  justify-content: space-between;
+}
+.entete__logo {
+  width: 75px;
+  height: 75px;
+}
+.entete__nav {
+  margin: 0 2rem 0 auto;
+}
+.entete__menu {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.entete__menu-item a {
+  display: block;
+  background-color: beige;
+}
+.entete__menu-item a:hover {
+  background-color: rgb(233, 227, 177);
+}
+
+.hero {
+  background-image: url("images/acores.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 /* ////////////////////////////////  composants */
 /**
 /////////////////////////////// Compsant .recherche
