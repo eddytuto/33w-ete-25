@@ -130,8 +130,8 @@ body {
 
 .conteneur {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 25px;
 }
 .conteneur__carte {
   display: flex;
@@ -140,4 +140,7 @@ body {
   flex: 1 0 300px;
   border: 1px solid #aaa;
   padding: 10px;
+}
+.conteneur__galerie {
+  flex: 1 0 100%;
 }/*# sourceMappingURL=style.css.map */
