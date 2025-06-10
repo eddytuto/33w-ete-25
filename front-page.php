@@ -28,20 +28,14 @@
     ?>
         <?php
         if (in_category('galerie')) {
-          echo "<article class='conteneur__galerie'>";
-          the_content();
-          echo "</article>";
-        } else {  ?>
+          get_template_part("gabarit/galerie");
+        } else {
+          get_template_part("gabarit/carte");
+        ?>
 
-          <article class="conteneur__carte">
-            <?php the_post_thumbnail('thumbnail'); ?>
-            <h2><?php the_title(); ?></h2>
-          <?php
-          $lien = "<a href=" . get_permalink() . ">Suite</a>";
-          echo '<p>' . wp_trim_words(get_the_excerpt(), 10, $lien) . '</p>';
-        } ?>
-          </article>
-      <?php }
+
+    <?php }
+      }
     } ?>
   </div>
 </section>
