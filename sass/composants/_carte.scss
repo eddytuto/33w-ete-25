@@ -1,0 +1,13 @@
+.conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  &__carte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 300px;
+    border: 1px solid #aaa;
+    padding: 10px;
+  }
+}
