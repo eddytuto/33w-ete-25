@@ -19,7 +19,7 @@
         <div class="entete__contenu">
             <!-- img src="images/logo.png" alt="" class="entete__logo" / -->
             <figure class="entete__logo">
-                <?php echo get_custom_logo(); ?>
+                <?= get_custom_logo(); ?>
             </figure>
             <label for="chk__menu" class="entete__burger">
                 <img
