@@ -89,7 +89,7 @@ body {
   .entete__burger {
     display: block;
     position: absolute;
-    top: 0;
+    top: 60px;
     right: 0;
   }
 }
@@ -107,7 +107,6 @@ body {
 }
 
 .hero {
-  background-image: url("images/acores.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
