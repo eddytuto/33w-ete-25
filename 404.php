@@ -4,9 +4,7 @@
  * le modèle index
  * Représente le modèle par défaut
  */
-
 ?>
-
 <?php get_header() ?>
 <h1>trace seulement à retirer -------------- 404.php -----------</h1>
 <section class="populaire">
