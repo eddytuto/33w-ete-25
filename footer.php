@@ -17,7 +17,9 @@
             <div class="piedpage__description"></div>
         </section>
         <section class="piedpage__ligne-2">
-            <div class="piedpage__icone"></div>
+            <div class="piedpage__icone">
+                <?php icone_sociaux('#f00') ?>
+            </div>
         </section>
 
     </div>
