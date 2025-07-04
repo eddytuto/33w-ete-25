@@ -119,6 +119,10 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+.piedpage {
+  border: 1px solid #f00;
+}
+
 /* ////////////////////////////////  composants */
 /**
 /////////////////////////////// Compsant .recherche
@@ -151,4 +155,10 @@ body {
 }
 .conteneur__galerie {
   flex: 1 0 100%;
+}
+
+/* ////////////////////////////////  animation */
+.hero__titre {
+  transform: translateY(-500px);
+  transition: transform 2s;
 }/*# sourceMappingURL=style.css.map */

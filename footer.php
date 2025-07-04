@@ -1,4 +1,7 @@
-<footer class="piedpage">
+<?php
+$footer_couleur = "#0f0";
+vague("#aaa", $footer_couleur); ?>
+<footer class="piedpage" style="background-color: <?= $footer_couleur ?> ;">
     <div class="global">
         <section class="piedpage__ligne-1">
             <div class="piedpage__lien">

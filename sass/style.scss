@@ -25,6 +25,7 @@ Text Domain: club-voyage
 @import "layout/general";
 @import "layout/entete";
 @import "layout/hero";
+@import "layout/footer";
 
 //@import "layout/entete";
 
@@ -33,3 +34,6 @@ Text Domain: club-voyage
 @import "composants/carte";
 //@import "composants/bouton";
 //@import "composants/menu";
+
+/* ////////////////////////////////  animation */
+@import "animation/anim-hero";
