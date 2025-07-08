@@ -138,6 +138,16 @@ body {
   top: 0;
   left: 0;
 }
+.carrousel__form {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
 
 .piedpage {
   border: 1px solid #f00;
