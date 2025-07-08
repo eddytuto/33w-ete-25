@@ -28,7 +28,7 @@ vague("#aaa", $footer_couleur); ?>
     </div>
 
 </footer>
-<script src="script/checkbox.js"></script>
+
 
 </body>
 <?php wp_footer(); ?>
