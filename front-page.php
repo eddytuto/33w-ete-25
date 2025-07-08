@@ -32,4 +32,10 @@
 <section class="populaire">
   <?php get_template_part("gabarit/populaire"); ?>
 </section>
+
+<section class="destination">
+  <h2 class="destination__titre">Articles de la catégorie</h2>
+  <div class="destination__list"></div>
+</section>
+
 <?php get_footer();
