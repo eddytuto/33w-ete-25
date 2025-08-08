@@ -33,7 +33,12 @@
   <?php get_template_part("gabarit/populaire"); ?>
 </section>
 
+<!-- section rest-api -->
 <section class="destination">
+  <ul class="list_categories">
+    <li data-id="4">Aventure</li>
+    <li data-id="3">Culturel</li>
+  </ul>
   <h2 class="destination__titre">Articles de la catégorie</h2>
   <div class="destination__list"></div>
 </section>
