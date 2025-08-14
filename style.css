@@ -185,4 +185,18 @@ body {
 }
 .conteneur__galerie {
   flex: 1 0 100%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.accordeon__chk {
+  display: none;
+}
+.accordeon__excerpt {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.accordeon__chk:checked ~ .accordeon__excerpt {
+  max-height: 200px;
+}
+
+/* input type="checkbox" *//*# sourceMappingURL=style.css.map */
